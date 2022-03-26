@@ -3,6 +3,9 @@ O que eu vou aprender na Trybe:
 - Unix
 - Bash
 - Git
+- HTML
+- CSS
 - GitHUB
 - Back-end
 - Front-end
+
