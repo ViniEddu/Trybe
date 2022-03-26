@@ -1,0 +1,598 @@
+    1  ls -la
+    2  cd ~
+    3  ls -la
+    4  ls
+    5  mkdir exemplo
+    6  ls
+    7  rm exemplo Exemplo
+    8  git init
+    9  ls
+   10  cd exemplo
+   11  git init
+   12  git checkout -b frontend
+   13  touch index.js
+   14  git status
+   15  cs ~
+   16  cd ~
+   17  ls
+   18  ls -la
+   19  sudo nano .zsh
+   20  cd ..
+   21  ls
+   22  cd ~
+   23  ls
+   24  git add .
+   25  cd exemplo
+   26  git status
+   27  git add .
+   28  git commit -b 'save'
+   29  git commit index.js
+   30  git status
+   31  git rm --cached .
+   32  ls -la
+   33  cd ..
+   34  ls
+   35  cd kinshikan
+   36  ls
+   37  git branch -d frontend
+   38  git status
+   39  cd exemplo
+   40  git branch -d frontend
+   41  git commit -b 'alterado'
+   42  git status
+   43  git commit -m 'atualização'
+   44  ls -la
+   45  git checkout master
+   46  cd ..
+   47  git commit -m 'bugou'
+   48  ls
+   49  cd exemplo
+   50  cd ..
+   51  git status
+   52  git add .
+   53  git add .bash_history
+   54  git status
+   55  git branch -d master
+   56  git remote add origin git@github.com:ViniEddu/teste.git
+   57  git remote -v
+   58  git push origin master
+   59  git status
+   60  ls
+   61  cd exemplo
+   62  git merge main
+   63  git merge master
+   64  git checkout master
+   65  git status
+   66  ls
+   67  cd ..
+   68  ls 
+   69  rm -rf .git
+   70  ls
+   71  cd exemplo
+   72  git status
+   73  ls -la
+   74  rm -rf .git
+   75  ls
+   76  cd ..
+   77  ls
+   78  rm -rf exemplo
+   79  ls
+   80  mkdir iniciando_git
+   81  cd iniciando_git
+   82  git init
+   83  touch meu_arquivo.txt
+   84  cat > meu_arquivo.txt
+   85  git add .
+   86  git commit -m 'Um arquivo de teste'
+   87  ssh-keygen -t rsa -b 4096 -C "vinicius.eddu99@gmail.com"
+   88  eval "$(ssh-agent -s)"
+   89  ssh-add ~/.ssh/id_rsa
+   90  xclip -sel clip < ~/.ssh/id_rsa.pub
+   91  ls
+   92  cd ..
+   93  ls
+   94  cd iniciando_git
+   95  mkdir exercicios_trybe
+   96  cd exercicios_trybe
+   97  touch exercicio1.txt
+   98  echo "O que eu vou aprender na trybe:" > exercicio1.txt
+   99  echo "-Unix" >> exercicio1.txt
+  100  echo "-Bash" >> exercicio1.txt
+  101  echo "-Git" >> exercicio1.txt
+  102  ls -l
+  103  cd ..
+  104  touch README.md
+  105  git add .
+  106  git commit -m "commit Inicial"
+  107  git remote add origin git@github.com:ViniEddu/Exercicios_Trybe.git
+  108  git remote -v
+  109  git push origin master
+  110  ls
+  111  cd exercicios_trybe
+  112  ls
+  113  cat >> exercicio1.txt
+  114  cd ..
+  115  git add .
+  116  git commit -m 'Adicionei 2 frases'
+  117  git push origin master
+  118  ls
+  119  cat meu_arquivo.txt
+  120  rm meu_arquivo.txt
+  121  ls
+  122  git add .
+  123  git commit -m removi meu_arquivo.txt
+  124  ls
+  125  git status
+  126  cd exercicios_trybe
+  127  cd ..
+  128  cd exercicios_trybe
+  129  mkdir 28-03-22_Trybe
+  130  ls
+  131  mv exercicio1.txt > 28-03-22_Trybe
+  132  ls
+  133  mv exercicio1.txt | 28-03-22_Trybe
+  134  ls
+  135  cd ..
+  136  ls
+  137  mv exercicio1.txt 28-03-22_Trybe
+  138  ls
+  139  28-03-22_Trybe
+  140  ls
+  141  mv exercicio1.txt ..
+  142  ls
+  143  cd ..
+  144  ls
+  145  mkdir 25-03-22_Trybe
+  146  cd 25-03-22_Trybe
+  147  cd ..
+  148  mv exercicio1.txt 25-03-22_Trybe
+  149  cd 25-03-22_Trybe
+  150  ls
+  151  cd ..
+  152  ls
+  153  cd ..
+  154  ls
+  155  git add .
+  156  git commit -m 'Criadas pastas referente aos dias e seus exercicios'
+  157  git push origin master
+  158  ls
+  159  cd exercicios_trybe
+  160  ls
+  161  cd 28-03-22_Trybe
+  162  ls
+  163  touch teste.txt
+  164  cat > teste.txt
+  165  git add .
+  166  git commit -m 'teste'
+  167  git push origin master
+  168  ls
+  169  cat >> teste.txt
+  170  git add .
+  171  git commit -m 'adicionei a palavra batata'
+  172  git push origin master
+  173  ls
+  174  cd ..
+  175  ls
+  176  cd 25-03-22_Trybe
+  177  git commit -m 'adicionado exercicio1.txt'
+  178  ls
+  179  mv exercicio1.txt exercicio.txt
+  180  ls
+  181  cat exercicio.txt
+  182  git add .
+  183  git commit -m 'adicionado exercicio.txt'
+  184  git push origin master
+  185  cd ..
+  186  cd 28-03-22_Trybe
+  187  cat >> teste.txt
+  188  git add .
+  189  git commit -m 'Adicionado arquivo de teste'
+  190  git push origin master
+  191  cd ..
+  192  ls
+  193  cd ..
+  194  ls
+  195  mv iniciando_git Documentos
+  196  ls
+  197  cd Documentos
+  198  ls
+  199  cd iniciando_git
+  200  cdc ..
+  201  cd ..
+  202  sudo nano .zhsrc
+  203  sudo nano .zshrc
+  204  ssh-keygen -t rsa -b 4096 -C "vinicius.eddu99@gmail.com"
+  205  ls
+  206  cd Documentos
+  207  ls
+  208  mkdir Tutorial
+  209  cd Tutorial
+  210  ls
+  211  git init
+  212  cd ..
+  213  ls
+  214  cd Tutorial
+  215  mkdir Arquivos
+  216  ls
+  217  cd Arquivos
+  218  touch arquivo.txt
+  219  cat > arquivo.txt
+  220  cat arquivo.txt
+  221  ls
+  222  ls -l
+  223  cd ..
+  224  cd Tutorial
+  225  touch README.md
+  226  git commit -m "Commit Inicial"
+  227  git add .
+  228  git status
+  229  git commit -m "Commit Inicial"
+  230  git remote add tutorial git@github.com:ViniEddu/Tutorial.git
+  231  git remote -v
+  232  git push tutorial master
+  233  ls
+  234  mkdir Arquivos2
+  235  cd Arquivos2
+  236  touch arquivo2.txt
+  237  cat > arquivo2.txt
+  238  git add .
+  239  git commit -m "Criei um arquivo chamado arquivo2"
+  240  cd ..
+  241  cd Arquivos2
+  242  git push tutorial master
+  243  cd ..
+  244  ls
+  245  cd Documentos
+  246  ls
+  247  cd Tutorial
+  248  ls -l
+  249  ls
+  250  mkdir Arquivos3
+  251  ls
+  252  cd Arquivos3
+  253  touch arquivo3.txt
+  254  cat > arquivo3.txt
+  255  cat arquivo3.txt
+  256  git status
+  257  git add .
+  258  git commit -m "Acabei de criar o arquivo3.txt"
+  259  git push tutorial master
+  260  ~cd ..
+  261  cd ..
+  262  mkdir Tutorial2
+  263  ls
+  264  cd Tutorial2
+  265  git init
+  266  git remote add tutorial2 git@github.com:ViniEddu/Tutorial2.git
+  267  git remote -v
+  268  ls
+  269  touch arquivo.txt
+  270  cat > arquivo.txt
+  271  git add .
+  272  git commit -m "crei o arquivo.txt"
+  273  git push tutorial2 master
+  274  cd Documentos
+  275  ls
+  276  cd iniciando_git
+  277  ls
+  278  cd ..
+  279  mv iniciando_git GitHUB_Trybe
+  280  ls
+  281  cd GitHUB_Trybe
+  282  ls
+  283  cd exercicios_trybe
+  284  ls
+  285  cd Documentos
+  286  ls
+  287  cd GitHUB_Trybe
+  288  cd ..
+  289  mkdir TrybeExercises
+  290  cd TrybeExercises
+  291  git clone git@github.com:ViniEddu/Exercicios_Trybe.git
+  292  ls
+  293  cd Exercicios_Trybe
+  294  ls
+  295  cd ..
+  296  ls
+  297  cd Exercicios_Trybe
+  298  git log
+  299  ls
+  300  cd exercicios_trybe
+  301  mkdir Pizzaria
+  302  cd Pizzaria
+  303  touch Sabores.txt
+  304  code .
+  305  git add .
+  306  git commit -m "Adicionei sabores de pizza"
+  307  ls -l
+  308  cd ..
+  309  ls -l
+  310  git log
+  311  git push origin master
+  312  ls
+  313  cd exercicios_trybe
+  314  ls
+  315  rm -rf Pizzaria
+  316  ls
+  317  git add .
+  318  git commit -m "Deletei a pasta Pizzaria"
+  319  git push origin master
+  320  ls
+  321  git log --diff-filter=D
+  322  git log --diff-filter=D --summary
+  323  git checkout 25d7~1 Pizzaria
+  324  ls
+  325  git commit -m "Restaurei a pasta de pizzaria"
+  326  git push origin master
+  327  ls
+  328  rm -rf Pizzaria
+  329  git add .
+  330  git commit -m "Removi dnv a pizzaria pois era só um teste"
+  331  git push origin master
+  332  ls
+  333  cd ..
+  334  ls
+  335  cd GitHUB_Trybe
+  336  ls
+  337  cd exercicios_trybe
+  338  ls
+  339  cd ..
+  340  ls
+  341  rm -rf TrybeExercises
+  342  ls
+  343  cd GitHUB_Trybe
+  344  ls
+  345  mkdir Testes
+  346  cd Testes
+  347  touch .gitignore
+  348  code .
+  349  ls
+  350  ls =la
+  351  ls -la
+  352  ls
+  353  mkdir Teste1
+  354  cd Teste1
+  355  touch Lista_de_compras.txt
+  356  code .
+  357  ls
+  358  code . Lista_de_compras.txt
+  359  code .
+  360  ls
+  361  cd ..
+  362  ls
+  363  touch putaria.txt
+  364  touch brincadeira.txt
+  365  touch isso_é_importante.txt
+  366  code isso_é_importante.txt
+  367  ls
+  368  ls -la
+  369  cd ..
+  370  ls
+  371  ls -la
+  372  cd Testes
+  373  cd Teste1
+  374  ls -la
+  375  cd ..
+  376  ls -la
+  377  cd ..
+  378  ls -la
+  379  cd ..
+  380  ls -la
+  381  cd GitHUB_Trybe
+  382  cat > .gitignore
+  383  ls
+  384  ls -la
+  385  cd Testes
+  386  ls
+  387  cd Teste1
+  388  ls
+  389  cd ..
+  390  ls
+  391  cd ..
+  392  ls
+  393  git status
+  394  git add .gitignore
+  395  git commit -m "Adicionei o ignore"
+  396  git push origin master
+  397  ls
+  398  git status
+  399  git add .
+  400  git commit -m "Pastas"
+  401  git push origin master
+  402  ls
+  403  cd Testes
+  404  ls
+  405  cd Teste1
+  406  ls
+  407  cd ..
+  408  cd GitHUB_Trybe
+  409  ls
+  410  cd exercicios_trybe
+  411  ls
+  412  cdd ..
+  413  cd ..
+  414  git push origin master
+  415  ls
+  416  rm -rf Testes
+  417  ls
+  418  git add .
+  419  git commit -m "Refiz"
+  420  git push origin master
+  421  git remote -v
+  422  git fetch
+  423  git pull
+  424  ls
+  425  git push
+  426  git push -u origin master
+  427  ls
+  428  cd ..
+  429  ls
+  430  rm -rf GitHUB_Trybe
+  431  ls
+  432  cd Trybe
+  433  ls
+  434  cd ..
+  435  mv Trybe Trybe_prints
+  436  ls
+  437  mkdir GitHUB_Trybe
+  438  cd GitHUB_Trybe
+  439  git clone git@github.com:ViniEddu/Exercicios_Trybe.git
+  440  ls
+  441  cd Exercicios_Trybe
+  442  ls
+  443  cd ..
+  444  cd Exercicios_Trybe
+  445  ls
+  446  mkdir 25-03-22_Exercicios
+  447  cd 25-03-22_Exercicios
+  448  touch trybe_skills.txt
+  449  code .
+  450  ls -l
+  451  git add .
+  452  git commit -m "criada arquivo para o exercicio"
+  453  git push 
+  454  ls
+  455  touch README.md
+  456  cat > README.md
+  457  git add .
+  458  git commit -m "Criado um Readme para se localizar :D"
+  459  git push
+  460  cd ..
+  461  ls
+  462  mkdir 26-03-22_Sábado
+  463  cd 26-03-22_Sábado
+  464  git push
+  465  cd ..
+  466  git push
+  467  cd 26-03-22_Sábado
+  468  touch README.md
+  469  code .
+  470  git add .
+  471  git commit -m "Criado um Readme para se localizar :D"
+  472  git push
+  473  cd ..
+  474  ls
+  475  code README.md
+  476  git add .
+  477  git commit -m "Commit inicial"
+  478  git push
+  479  git status
+  480  ls -l
+  481  git remote -v
+  482  git push origin Yasuo
+  483  git push
+  484  git checkout Yasuo
+  485  ls
+  486  ls -l
+  487  git remote -v
+  488  git --version
+  489  git history
+  490  git log
+  491  git remote show origin
+  492  git checkout Yasuo
+  493  git branch Yasuo
+  494  git checkout Yasuo
+  495  git remote show origin
+  496  git checkout main
+  497  git checkout -b LeeSin
+  498  git checkout main
+  499  git remote show origin
+  500  git merge main
+  501  git branch -d Yasuo
+  502  git branc
+  503  git branch
+  504  git branch -v
+  505  git branch --merged
+  506  git branch --no-merged
+  507  git checkout LeeSin
+  508  git push origin LeeSin
+  509  git branch
+  510  git checkout main
+  511  git branch -d LeeSin
+  512  git branch
+  513  git branch -b trybe-skills-changes
+  514  history
+  515  git checkout -b trybe-skills-change
+  516  git branch
+  517  ls
+  518  cd 25-03-22_Exercicios
+  519  ls
+  520  code trybe_skills.txt
+  521  git add trybe_skills.txt
+  522  git commit -m "Feito o que se pede o exercicio"
+  523  git push -u origin trybe-skills-change
+  524  git checkout main
+  525  git checkout -b trybe-skills-updates
+  526  ls
+  527  code trybe_skills.txt
+  528  git add trybe_skills.txt
+  529  git commit -m "Adicionei 3 coisas que aprenderei na trybe"
+  530  git push -u origin trybe-skills-updates
+  531  git checkout main
+  532  git branch
+  533  git branch -d trybe-skills-change
+  534  git branch -d trybe-skills-updates
+  535  git branch
+  536  cd Documentos
+  537  cd GitHUB_Trybe
+  538  cd Exercicios_Trybe/25-03-22_Exercicios
+  539  ls
+  540  cd ..
+  541  ls
+  542  mkdir GitHub_Kallyene
+  543  cd GitHub_Kallyene
+  544  git clone git@github.com:kaevanlly/trybe-exercicios.git
+  545  ls
+  546  cd trybe-exercicios
+  547  ls
+  548  git checkout -b Vini
+  549  ls
+  550  cd 1-fundamentos-do-desenvolvimento-web/bloco-02-git-github-e-internet
+  551  ls
+  552  cd ..
+  553  cd trybe-exercicios
+  554  ls
+  555  touch teste.txt
+  556  code teste.txt
+  557  git add teste.txt
+  558  git commit -m "Adicionei um arquivo teste"
+  559  git push -u origin Vini
+  560  ls
+  561  git checkout master
+  562  git merge Vini[
+  563  git merge Vini
+  564  ls
+  565  git add .
+  566  git push
+  567  git pull
+  568  git pull --rebase
+  569  ls
+  570  git branch
+  571  git branch -d Vini
+  572  git add .
+  573  git commit -m "Removi Vini e coloquei o teste no master"
+  574  git push
+  575  ls
+  576  code teste.txt
+  577  cd ..
+  578  ls
+  579  cd ..
+  580  ls
+  581  cd GitHUB_Trybe
+  582  ls
+  583  cd Exercicios_Trybe
+  584  git status
+  585  ls
+  586  cd 25-03-22_Exercicios
+  587  ls
+  588  code trybe_skills.txt
+  589  git add .
+  590  git commit -m "Adicionei o arquivo trybe_skills.txt e adicionei algo dentro"
+  591  git push -u origin main
+  592  git pull
+  593  git pull --rebase origin main
+  594  ls
+  595  git add .
+  596  git commit -m "teste"
+  597  git push
+  598  history
