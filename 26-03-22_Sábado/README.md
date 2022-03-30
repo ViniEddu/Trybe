@@ -1,1 +1,0 @@
-Essa pasta foi criada para praticar os exercicios fora do horário de aula no sábado.
