@@ -1,0 +1,39 @@
+ul li:nth-child(even){
+    color: green;
+
+}
+
+ul li:nth-child(odd) {
+    text-transform: uppercase;
+}
+
+.cabecalho h1, h3{
+    color: red;
+}
+
+.italico {
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+li {
+    font-size: 20px;
+
+}
+
+.italico-texto {
+    font-weight: bold;
+}
+
+.ling-1-3 {
+    color: blue;
+}
+
+.ling-1-2 {
+    background-color: pink;
+}
+
+a:hover {
+    font-weight: bold;
+    color: green;
+}
