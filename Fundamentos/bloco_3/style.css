@@ -6,3 +6,13 @@ ul li:nth-child(even){
 ul li:nth-child(odd) {
     text-transform: uppercase;
 }
+
+.cabecalho h1, h3{
+    color: red;
+}
+
+.italico {
+    font-size: 40px;
+    border: 1px solid black;
+}
+
