@@ -12,6 +12,7 @@ body {
     max-width: 100%;
     min-width: 30%;
     font-size: 100%;
+    background-image: linear-gradient(85deg, #92b1c5 0, #8eacbb 8.33%, #8ca6b1 16.67%, #8a9fa5 25%, #88979a 33.33%, #878d8e 41.67%, #858383 50%, #83787a 58.33%, #806f72 66.67%, #7c676e 75%, #795f6b 83.33%, #745969 91.67%, #6f5469 100%);
 }
 
 .cabecalho {
@@ -40,6 +41,64 @@ body {
     font-weight: 500;
 }
 
---------------------------------------------------------------------------------------------------------------------
+
+.aqui-começa-corpo {}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
 
 
+main {
+
+    flex: 1;
+}
+
+
+aside {
+    max-width: 30%;
+    min-width: 10%;
+
+
+   
+}
+
+footer {
+    height: 12vh;
+
+}
+
+aside > p {
+    padding: 10px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.curiosidade-1 {
+    height: 80vh;
+
+    flex: 1;
+    padding: 10px;
+    border-top: solid 0.4px #fff2e7;
+}
+
+
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.700);
+}
+
+
+td, tr {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+div#container {
+    overflow-x: auto;
+}
