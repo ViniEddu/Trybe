@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto+Mono:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    max-width: 100%;
+    min-width: 30%;
+    font-size: 100%;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.850);
+    padding: 24px;
+}
+
+.cabecalho-imagem {
+    height: 110px;
+}
+
+.menu {
+    display: flex;
+    gap: 50px;
+}
+
+.menu-item {
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+    color: #fff2e7;
+    font-weight: 500;
+}
+
+--------------------------------------------------------------------------------------------------------------------
+
+
