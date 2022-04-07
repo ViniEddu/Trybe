@@ -58,3 +58,16 @@ if (angulo1 + angulo2 + angulo3 === 180) {
 } else {
     console.log(false)
 }
+
+
+/* exercicio 6 */
+
+let peca = 'peão'.toUpperCase();
+
+switch (peca) {
+    case 'PEÃO':
+        console.log('o peão anda uma vez para frente ou direita ou esquerda, exceto para trás')
+    break
+    default:
+        console.log('Mensagem de erro')
+}
