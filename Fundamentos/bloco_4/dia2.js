@@ -60,3 +60,13 @@ for (let index5 = 0; index5 < numbers.length; index5 += 1){
 
 console.log('Esse é o menor valor: ', menorValor)
 
+/*exercicio 8*/
+
+
+let array = [];
+
+for (let contador = 1; contador <= 25; contador += 1) {
+    array.push(contador)
+}
+
+console.log(array)
