@@ -116,3 +116,17 @@ if (numer1 % 2 === 1 || numer2 % 2 === 1 || numer3 % 2 === 1) {
 } else {
     console.log(false);
 }
+
+/* exercicio 10 */
+
+const valorCusto = 500;
+const valorVenda = 833;
+const impostoSobreCusto = (20/100) * valorCusto;
+const valorLucro = valorVenda - (valorCusto + impostoSobreCusto);
+let quantidadeVendido = 0;
+
+if (quantidadeVendido > 0) {
+    console.log('O lucro é de:', quantidadeVendido * valorLucro)
+} else if (quantidadeVendido <= 0 || valorLucro <= 0) {
+    console.log('Erro!')
+}
