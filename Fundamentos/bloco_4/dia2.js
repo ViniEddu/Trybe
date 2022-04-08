@@ -76,3 +76,24 @@ console.log(array)
 for (let contador1 = 0; contador1 <= array.length; contador1 += 1) {
     console.log(contador1 / 2);
 }
+
+
+
+
+/*exercicio Bônus */
+
+/*
+for (let index = 1; index < array.length; index += 1) {
+    for (let secondIndex = 0; secondIndex < index; secondIndex += 1) {
+      if (array[index] < array[secondIndex]) {
+        let position = array[index];
+        array[index] = array[secondIndex];
+        array[secondIndex] = position;
+      }
+    }
+  }
+
+*/
+
+
+
