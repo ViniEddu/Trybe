@@ -12,4 +12,22 @@ let soma = 0;
 for (let index2 = 0; index2 < numbers.length; index2 += 1) {
     soma += numbers[index2]
 }
-console.log('A soma dos arrays é: ',soma)
+console.log('A soma dos arrays é: ',soma);
+
+/*exercicio 3*/
+
+
+let mediaAritmetica = soma/numbers.length;
+
+console.log(mediaAritmetica)
+
+/*exercicio 4*/
+
+if (mediaAritmetica > 20) {
+    console.log('valor maior que 20')
+} else if (mediaAritmetica <= 20) {
+    console.log('valor menor que 20')
+}
+
+/*exercicio 5*/
+
