@@ -50,5 +50,13 @@ for (let index4 = 0; index4 < numbers.length; index4 += 1) {
 
 /*exercicio 7*/
 
+let menorValor = 5000000000;
 
+for (let index5 = 0; index5 < numbers.length; index5 += 1){
+    if (numbers[index5] < menorValor) {
+        menorValor = numbers[index5]
+    }
+}
+
+console.log('Esse é o menor valor: ', menorValor)
 
