@@ -70,3 +70,9 @@ for (let contador = 1; contador <= 25; contador += 1) {
 }
 
 console.log(array)
+
+/*exercicio 9*/
+
+for (let contador1 = 0; contador1 <= array.length; contador1 += 1) {
+    console.log(contador1 / 2);
+}
