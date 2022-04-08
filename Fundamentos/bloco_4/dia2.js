@@ -31,3 +31,24 @@ if (mediaAritmetica > 20) {
 
 /*exercicio 5*/
 
+let maiorValor = 0;
+for (let index3 = 0; index3 < numbers.length; index3 += 1) {
+    if (numbers[index3] > maiorValor) {
+        maiorValor = numbers[index3]
+    }
+}
+
+console.log('o maior valor é: ', maiorValor)
+
+/*exercicio 6*/
+
+for (let index4 = 0; index4 < numbers.length; index4 += 1) {
+   if(numbers[index4] % 2 === 1){
+       console.log('esses são os valores ímpares: ', numbers[index4])
+   }
+}
+
+/*exercicio 7*/
+
+
+
