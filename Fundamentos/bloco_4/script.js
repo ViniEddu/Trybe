@@ -92,4 +92,6 @@ for (let index = palavra.length - 1; index >= 0; index -= 1) {
 console.log('A palavra é: ',palavra)
 console.log('A palavra invertida fica: ', novaPalavra);
 
-//
+//exercicio 3
+
+let array = ['java', 'javascript', 'python', 'html', 'css'];
