@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@700&family=Charmonman&family=Kodchasan:wght@200&family=Shadows+Into+Light+Two&family=Strait&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(240, 227, 211);
+}
+
+.cores-paleta {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    border: 0.4px solid black;
+}
+
+#secao-paleta-cores {
+    display: flex;
+    justify-content: center;
+    
+}
+
+#cabecalho {
+    display: flex;
+    flex-direction: column;
+    
+}
+#pai-input {
+    display: flex;
+    justify-content: center;
+}
+
+#input-cor {
+    width: 150px;
+    margin-bottom: 15px;
+}
+#conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.secao-dos-pixels {
+    border: 1px solid black;
+    width: 220px;
+    margin-top: 20px;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+.pixels {
+    display: inline-block;
+    margin: 1px;
+    border: 0.4px solid black;
+    width: 40px;
+    height: 40px;
+    background-color: whitesmoke;
+}
+
+#botao-limpar {
+    margin-top: 10px;
+}
+
