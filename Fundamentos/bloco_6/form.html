@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio/6.1 | Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="cabecalho-menu">
+        <nav id="menu-list">
+            <a href="">link1</a>
+            <a href="">link2</a>
+            <a href="">link3</a>
+        </nav>
+    </header>
+    <main id="conteudo-principal">
+        <section id="secao-formulario">
+            <form action="" id="form" method="get">
+            <div id="nome-mail">
+                <label for="nome">Nome Completo</label>
+                <input type="text" name="nome" id="nome" autofocus autocomplete="off" placeholder="Insira seu nome aqui!">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email"autocomplete="off" placeholder="Insira seu e-mail aqui!" required>
+            </div>
+            
+            <fieldset id="destinos-preferidos">
+                    <legend>Destinos preferidos</legend>
+                <ol id="lista-dest">
+                <label for="destino1">
+                    <li class="item-dest"><input type="radio" name="destinos" id="destino1">Cidade</li>
+                </label>
+                <label for="destino2">
+                    <li class="item-dest"><input type="radio" name="destinos" id="destino2">Campo</li>
+                </label>
+                <label for="destino3">
+                    <li class="item-dest"><input type="radio" name="destinos" id="destino3">Praia</li>
+                </label>   
+                    <label for="destino4">
+                    <li class="item-dest"><input type="radio" name="destinos" id="destino4">Montanha</li>
+                </label>
+                </ol>
+            </fieldset>
+
+            <textarea name="pqeu" id="sobremim" cols="35" rows="5" maxlength="500" placeholder="Mínimo 100 caracteres" required minlength="100"></textarea><br><br>
+            <p>Qual a melhor data para realizar sua viagem?</p><br>
+            <input type="date" name="melhor-data" id="data-viagem" min="2022-04-01" max="2023-04-30" required value="2022-04-22"><br><br>
+            <div id="spams">
+            <label for="spam">
+            <input type="checkbox" name="simnao" id="spam"> Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
+            </label> <br><br>
+
+            <label for="spam1">
+                <input type="checkbox" name="simnao" id="spam1" required> Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.
+                </label> 
+                
+            </div> 
+                <br><br>
+            <div id="botoes">  
+                <button type="submit" id="botao">Enviar dados</button>
+            </div>
+            </form>
+        </section>
+    </main>
+    <footer id="rodape"></footer>
+    <script src="script.js"></script>
+</body>
+</html>

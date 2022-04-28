@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#cabecalho-menu {
+    background-color: beige;
+}
+#menu-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+
+
+#conteudo-principal {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+form {
+    letter-spacing: 2px;
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 9px rgb(73, 73, 73);
+}
+
+#form input[type='text'] {
+    margin-bottom: 8px;
+    padding: 1.8px;
+    letter-spacing: 1px;
+    width: 290px;
+}
+
+#form input[type='email'] {
+    margin-bottom: 8px;
+    padding: 1.8px;
+    letter-spacing: 1px;
+    width: 290px;
+}
+#nome-mail {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#lista-dest {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.item-dest {
+    padding: 8px;
+    display: flex;
+    gap: 10px;
+}
+
+
+legend {
+    text-align: center;
+    padding: 10px;
+}
+
+#botao {
+    padding: 2px;
+    border: 0.4px solid rgb(39, 39, 39);
+    box-shadow: 2px 2px 9px rgb(73, 73, 73);
+    border-radius: 3px;
+    margin-top: 10px;
+    width: 100px;
+}
+
+#botao:hover {
+    color: rgb(189, 183, 183);
+    background-color: rgb(73, 73, 73);
+    transition-delay: 100ms;
+    transition: 600ms;
+}
+
+#sobremim {
+    max-width: 375px;
+    max-height: 200px;
+    margin-top: 20px;
+}
+
+#spams {
+    width: 350px;
+    text-align: justify;
+}
