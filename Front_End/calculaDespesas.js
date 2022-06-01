@@ -1,21 +1,21 @@
 // Declaramos nossa variável de despesas
 const despesas = [
     {
-      gym: 99,
+      internetOi: 149.90,
     },
     {
-      ifood: 200,
+      tim: 204.89,
     },
     {
-      phone: 60,
+      luz: 191.31,
     },
     {
-      internet: 100,
+      agua: 55.00,
     },
   ];
   
   // Declaramos nossa renda
-  const renda = 1000;
+  const renda = 766.23;
   
   const despesaMensal = (renda, despesas, callback) => {
     // Definimos que a despesa total é igual ao valor retornado pela função callback (que é o parâmetro da nossa função)
@@ -25,9 +25,9 @@ const despesas = [
     const saldoFinal = renda - despesaTotal;
   
     console.log(`Balanço do mês:
-      Recebido: R$${renda},00
-      Gasto: R$${despesaTotal},00
-      Saldo: R$${saldoFinal},00 `);
+      Recebido: R$${renda}
+      Gasto: R$${despesaTotal}
+      Saldo: R$${saldoFinal}`);
   };
   
   // Definimos nossa função que será passada como parâmetro
