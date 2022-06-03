@@ -6,8 +6,16 @@ const fetchCryptoOSuperCao = async () => {
     return promisse;
 }
 
-const criaLi = async () => {
+const fetchCryptoCurrency = async () => {
+    const cryptoURL = `https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/usd.min.json`;
+    const promessa = await fetch(cryptoURL)
+    .then(response => response.json())
+    .then(data => data.usd.brl)
+    return promessa
+};
 
+const criaLi = async () => {
+    const currencyBrl = await fetchCryptoCurrency();
     const data = await fetchCryptoOSuperCao();
     const ul = document.getElementById('crypto-coins');
 
@@ -15,10 +23,13 @@ const criaLi = async () => {
         .forEach((element) => {
             const newLi = document.createElement('li');
             newLi.className = 'itemList'
-            const usdPrice = Number(element.priceUsd)
+            const usdPrice = Number(element.priceUsd * currencyBrl);
             newLi.innerHTML = `${element.id} ${element.symbol}: ${usdPrice.toFixed(2)}`
             ul.appendChild(newLi);
-        });
+        });  
 };
 
-window.onload = () => criaLi()
+window.onload = () => criaLi();
+
+
+// Retorna atualmente (usdPrice = Valor em dólar) => brlPrice = Valor em Real
