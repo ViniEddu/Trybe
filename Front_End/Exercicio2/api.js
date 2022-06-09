@@ -1,8 +1,7 @@
 const fetchCryptoOSuperCao = async () => {
     const URL = `https://api.coincap.io/v2/assets`;
-    const promisse = await fetch(URL)
-        .then(response => response.json())
-        .then(data => data.data)
+    const promisse = await fetch(URL).then(response => response.json()).then(data => data.data)
+        
     return promisse;
 }
 
