@@ -4,10 +4,11 @@
   "description": "",
   "main": "script.js",
   "dependencies": {
-    "jest": "^28.1.0",
     "node-fetch": "^2.6.7"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jest": "^28.1.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
