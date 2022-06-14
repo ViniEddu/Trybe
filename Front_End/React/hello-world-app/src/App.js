@@ -1,7 +1,16 @@
-import HelloWorld from "./HelloWorld";
+import React from 'react';
+/* import About from './About'; */
 
-function App() {
-    return <HelloWorld />
+const Task = (value) => {
+    return (
+      <li>{value}</li>
+    );
+  }
+
+class App extends React.Component {
+  render() {
+    return <Task/>
+  }
 }
 
 export default App;
