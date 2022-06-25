@@ -25,7 +25,7 @@ const conteudos = [
 
 const criaObjeto = ({conteudo, bloco, status}) => {
     return (
-        <div className='item-obj' key={conteudo}>
+        <div className='item-obj' key={test}>
         <p className='item-objetos'>O conteúdo é: {conteudo}</p>
         <p className='item-objetos'>Status: {status}</p>
         <p className='item-objetos'>Bloco: {bloco}</p>
